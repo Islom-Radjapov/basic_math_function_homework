@@ -11,4 +11,5 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return math.log(a, b)
+    return math.floor(a / b)
+
